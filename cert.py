@@ -27,7 +27,6 @@ with open('certificates.pem', 'r') as inputFile:
 		# hopefully just an encoded line
 		else:
 			publicCert += line
-inputFile.close()
 
 for certficate in certificates:
 	# Currently printing everything, need to add more filters/options, and identify chains
